@@ -30,7 +30,7 @@ require 'spree/testing_support/authorization_helpers'
 require 'spree/testing_support/url_helpers'
 
 # Requires factories defined in lib/spree_simple_sales/factories.rb
-require 'spree_simple_sales/factories'
+require 'solidus_simple_sales/factories'
 
 RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods

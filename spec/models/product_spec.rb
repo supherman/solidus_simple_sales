@@ -11,13 +11,13 @@ describe Spree::Product do
         end
 
         it 'should be true' do
-          expect(subject.on_sale?).to be_true
+          expect(subject.on_sale?).to be_truthy
         end
       end
 
       context 'When no variants on sale' do
         it 'should be false' do
-          expect(subject.on_sale?).to be_false
+          expect(subject.on_sale?).to be_falsy
         end
       end
     end
@@ -29,7 +29,7 @@ describe Spree::Product do
         end
 
         it 'should be true' do
-          expect(subject.on_sale?).to be_true
+          expect(subject.on_sale?).to be_truthy
         end
       end
     end

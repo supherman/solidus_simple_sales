@@ -14,13 +14,13 @@ describe Spree::Variant do
       end
 
       it 'should be on sale' do
-        expect(subject.on_sale?).to be_true
+        expect(subject.on_sale?).to be_truthy
       end
     end
 
     context 'When sale price is not present' do
       it 'should not be on sale' do
-        expect(subject.on_sale?).to be_false
+        expect(subject.on_sale?).to be_falsy
       end
     end
   end

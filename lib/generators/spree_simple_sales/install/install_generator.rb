@@ -1,4 +1,4 @@
-module SpreeSimpleSales
+module SolidusSimpleSales
   module Generators
     class InstallGenerator < Rails::Generators::Base
 
