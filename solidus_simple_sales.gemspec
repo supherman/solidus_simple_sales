@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'solidus_simple_sales'
   s.version     = '2.0.5'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Simple sale price management for Solidus'
+  s.description = 'Simple sale price management for Solidus'
   s.required_ruby_version = '>= 1.9.3'
 
   s.author      = 'Herman Moreno'
